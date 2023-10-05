@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 0px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 500px) {
+    .column {
+      width: 100%;
+    }
+  }
+  
+  .container {
+    position: relative;
+  
+  }
+  
+
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: hsl(25, 100%, 14%);
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+  #casd{
+    color:hsl(37, 96%, 31%);
+  }
+  
+  body {
+    margin: 0px;
+    font-family: Tahoma, sans-serif;
+  }
+  
+  .navigation ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    height: 50px;
+    line-height: 50px;
+    background-color: hsl(37, 96%, 31%);;
+  }
+  .navigation ul li{
+    float:left;
+    border-right:2px solid #d1f2eb;
+  }
+  .navigation ul a{
+    padding:0px 30px;
+    color:#d1f2eb;
+    text-decoration:none;
+    display:block;
+  }
+  .navigation a:hover {
+    background: hsl(37, 100%, 9%);
+   }
+  
+     .navigation2 ul{
+       padding: 0px;
+       margin: 0px;
+       list-style: none;
+       height: 50px;
+       line-height: 50px;
+       background-color: hsl(37, 96%, 31%);
+     }
+     .navigation2 ul li{
+       float:left;
+       border-right:2px solid #d1f2eb;
+     }
+     .navigation2 ul a{
+       padding:0px 30px;
+       color:#d1f2eb;
+       text-decoration:none;
+       display:block;
+     }
+     .navigation2 a:hover {
+        background: hsl(37, 100%, 9%);
+      }
+    .logoc{
+    margin-top:-170px;
+    margin-left: 2px;
+    }
+    #headl
+    {
+    margin-left:320px;
+    font-size: 120px;
+    color: white;
+    margin-top:px;
+    }
+  
+    .active {
+  background-color: hsl(25, 100%, 14%);
+  }
+  
+  
+  .aa {
+    background: hsl(37, 96%, 31%);
+    background-attachment: fixed;
+    }
+    .end {
+    background: hsl(37, 96%, 31%);
+    background-attachment: fixed;
+    }
+  

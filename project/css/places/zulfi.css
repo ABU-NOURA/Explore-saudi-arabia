@@ -1,0 +1,120 @@
+.content {
+    background-color: #edecf1;
+    }
+    body {
+      margin: 0px;
+      font-family: Tahoma, sans-serif;
+    }
+    
+    .navigation ul{
+      padding: 0px;
+      margin: 0px;
+      list-style: none;
+      height: 50px;
+      line-height: 50px;
+      background-color: hsl(37, 96%, 31%);;
+    }
+    .navigation ul li{
+      float:left;
+      border-right:2px solid #d1f2eb;
+    }
+    .navigation ul a{
+      padding:0px 30px;
+      color:#d1f2eb;
+      text-decoration:none;
+      display:block;
+    }
+    .navigation a:hover {
+      background: hsl(37, 100%, 9%);
+     }
+    
+       .navigation2 ul{
+         padding: 0px;
+         margin: 0px;
+         list-style: none;
+         height: 50px;
+         line-height: 50px;
+         background-color: hsl(37, 96%, 31%);
+       }
+       .navigation2 ul li{
+         float:left;
+         border-right:2px solid #d1f2eb;
+       }
+       .navigation2 ul a{
+         padding:0px 30px;
+         color:#d1f2eb;
+         text-decoration:none;
+         display:block;
+       }
+       .navigation2 a:hover {
+          background: hsl(37, 100%, 9%);
+        }
+      .logoc{
+      margin-top:-170px;
+      margin-left: 2px;
+      }
+      #headl
+      {
+      margin-left:320px;
+      font-size: 120px;
+      color: white;
+      margin-top:px;
+      }
+    
+      .active {
+    background-color: hsl(37, 100%, 9%);
+    }
+    
+    
+    .aa {
+    background: hsl(37, 96%, 31%);
+    background-attachment: fixed;
+    
+    }
+    .end {
+    background: hsl(37, 96%, 31%);
+    background-attachment: fixed;
+    
+    }
+    #outer {
+        width: 364px;
+        margin: 50px auto 0 auto;
+        text-align: center;
+      }
+      #pla{
+        text-decoration: none;
+        color:hsl(37, 96%, 31%);
+        font-size: 24px;
+        margin-left: 20px;
+      }
+      
+      #plq{
+        text-decoration: none;
+        color:hsl(37, 96%, 31%);
+        font-size: 24px;
+        margin-left: 20px;
+        font-family: monospace, serif;
+      }
+      #plq:hover {
+        background-color: #0dcf78;
+        color: black;
+      }
+      h1,h2,h3{
+        font-family: monospace, serif;
+        color:hsl(37, 96%, 31%);
+      }
+      #pla:hover {
+        background-color: hsl(37, 96%, 31%);
+        color: black
+      }
+      .content img{
+        display: block;
+        margin:0px 20px;
+        width: 40%;
+      }
+      h1,h2,h3 ,p,#pla{
+        margin: 20px;
+      }
+      p{
+        font-size: 16px;
+      }
