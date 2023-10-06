@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Explore saudi arabia | Home</title>
-    <link rel="stylesheet" href="css/home.css">
+    <title>Explore saudi arabia |Tourismcost</title>
+    <link rel="stylesheet" href="css/Tourismcost.css">
+    <script type="text/javascript" src="javascript/Tourismcost.js"></script>
   </head>
   <body>
     <div class="aa">
@@ -23,7 +24,70 @@
 
 
 <div class="content">
-
+  <br><br>
+  <center>
+      <h3 style="color:hsl(37, 96%, 31%)">Calculator</h3>
+  
+      <table>
+        <tr>
+          <th id ="vvv" colspan="2">Fill this form to calculate the cost</th>
+        </tr>
+        <tr></tr><tr></tr>
+        <tr>
+          <td>&nbsp;Number of person:</td> <td> <input type="text" id="nump"> </td>
+        </tr>
+        <tr></tr><tr></tr>
+        <td>&nbsp;which places? </td> <td> <select id="seas">
+          <option disabled="disabled" selected="selected" value="opt">select option</option>
+          <option  value="neom">NEOM</option>
+          <option  value="riyadh">RIYADH</option>
+          <option  value="zulfi">ZULFI</option>
+          <option  value="aljouf">AL-JOUF</option>
+          <option  value="dammam">AL-DAMMAM</option>
+          <option  value="yanbu">YANBU</option>
+          <option  value="alahsa">AL-AHSA</option>
+          <option  value="Jeddah">JEDDAH</option>
+          <option  value="alula">ALULA</option>
+          <option  value="abha">ABHA</option>
+          <option  value="qassim">AL-QASSIM</option>
+          <option  value="jazan">JAZAN</option>
+        </select> </td>
+       
+        <tr></tr><tr></tr>
+        <tr>
+          <td>&nbsp;In which season? </td> <td> <select id="seas">
+            <option disabled="disabled" selected="selected" value="opt">select option</option>
+            <option  value="win">Winter</option>
+            <option  value="sum">Summer</option>
+            <option  value="aut">Autumn</option>
+            <option  value="spr">Spring</option>
+          </select> </td>
+        </tr>
+        <tr></tr><tr></tr>
+        <tr>
+          <td>&nbsp;How many days? </td> <td> <input type="text" id="numd"> </td>
+        </tr>
+        <tr></tr><tr></tr>
+        <tr>
+          <td>&nbsp;Include what? </td> <td> <input type="checkbox" class="opt" id="hotel" value="hotel"> Hotel <input type="checkbox" class="opt" id="flight" value="Flight"> Flight <input type="checkbox" class="opt" id="driver" value="driver"> Driver </td>
+        </tr>
+        <tr></tr>
+        <tr></tr>
+        <tr></tr>
+        <tr></tr>
+        <tr>
+          <th colspan="2"> <button id="zzz" type="button" onclick="calculat()">calculate</button> </th>
+        </tr>
+        <tr></tr>
+        <tr></tr>
+        <tr></tr>
+        <tr></tr>
+      </table>
+  
+      <label id="result"></label>
+      <br><br><br>
+  
+  </center>
 
 
 
