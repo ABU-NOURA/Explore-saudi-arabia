@@ -3,6 +3,7 @@
   <head>
     <title>Explore saudi arabia | Home</title>
     <link rel="stylesheet" href="css/sign.css">
+    <script type="text/javascript" src="javascript/sign.js"></script>
   </head>
   <body>
     <div class="aa">
@@ -21,58 +22,60 @@
     </ul>
   </div>
 
-  <form action="#" method="post">
-    <div class="form-group">
-      <label for="first_name">First Name:<span>*</span></label>
-      <div class="input">
-        <i class="fa-solid fa-file-signature"></i>
-        <input type="text" id="first_name" name="first_name" placeholder="first name" required>
-      </div>
-    </div>
-    <div class="form-group">
-      <label for="last_name">Last Name:<span>*</span></label>
-      <div class="input">
-        <i class="fa-solid fa-file-signature"></i>
-        <input type="text" id="last_name" name="last_name" placeholder="last name" required>
-      </div>
-    </div>
+  <div class="content">
 
-
-    </div>
+    <center>
+      <br><br>
+      <h3 style="color:#145a32;">Sign in to get news!</h3>
+      <form class="" name="theform" action="add.php" method="post" onsubmit="return JsValidation()">
+        <table>
+          <tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+          <tr>
+            <td>&nbsp;First Name:* </td><td><input type="text" name="fname" style="width: 90%"></td>
+          </tr>
+          <tr></tr>
+          <tr>
+            <td>&nbsp;Last Name:*</td><td><input type="text" name="lname" style="width: 90%"></td>
+          </tr>
+          <tr></tr>
+          <tr>
+            <td>&nbsp;Email:* </td><td><input type="text" name="email" style="width: 90%"></td>
+          </tr>
+          <tr></tr>
+          <tr>
+            <td>&nbsp;ReEnter Email:* </td><td><input type="text" name="reemail" style="width: 90%"></td>
+          </tr>
+          <tr></tr>
+          <tr>
+            <td>&nbsp;Phone:* </td><td><input type="text" name="phone" style="width: 90%"></td>
+          </tr>
+          <tr></tr>
+          <tr>
+            <td>&nbsp;Age:* </td><td><input type="text" name="age" style="width: 90%"></td>
+          </tr>
+          <tr></tr>
+          <tr>
+            <td>&nbsp;Favorites places? </td><td><input type="checkbox" name="fav[]" value="Georgia"> Georgia
+              <input type="checkbox" name="fav[]" value="Greece"> Greece
+              <input type="checkbox" name="fav[]" value="Mauritius"> Mauritius </td>
+          </tr>
+          <tr></tr>
+          <tr>
+            <td>&nbsp;Have you traveled before?* </td><td><input type="radio" name="tb" value="yes">Yes
+              <input type="radio" name="tb" value="no">NO</td>
+          </tr>
+          <tr></tr>
+          <tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+            <th colspan="2">
+              <input  type="submit" name="" value="Add" id="zzz"></th>
+          </tr>
+          <tr></tr>
+        </table>
+        </form>
+        <br><br>
+      </center>
     
-    
-    <div class="form-group">
-      <div class="label">
-        <label for="password">Password:<span>*</span></label>
-        <div class="output"></div>
-      </div>
-      <div class="input">
-        <i class="fa-solid fa-key"></i>
-        <input type="password" id="password" name="password" required>
-      </div>
     </div>
-  
-    <div class="form-group">
-      <div class="label">
-        <label for="confirm_password">Confirm Password:<span>*</span></label>
-        <div class="output"></div>
-      </div>
-      <div class="input">
-        <i class="fa-solid fa-key"></i>
-        <input type="password" id="confirm_password" name="confirm_password" required>
-      </div>
-    </div>
-    <div class="form-group">
-      <label for="email">Email:</label>
-      <div class="input">
-        <i class="fa-solid fa-envelope"></i>
-        <input type="email" id="email" name="email" placeholder="xxx@domain.com">
-      </div>
-    </div>
-
-    <button class="save">save</button>
-  </form>
-  <script src="https://kit.fontawesome.com/cc5f148225.js" crossorigin="anonymous"></script>
   
 <div class="end">
   <div class="navigation2">
